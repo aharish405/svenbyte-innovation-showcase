@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import team1 from "@/assets/team-1.jpg";
 import team2 from "@/assets/team-2.jpg";
+import team3 from "@/assets/team-3.jpg";
 
 const About = () => {
   return (
@@ -66,7 +67,7 @@ const About = () => {
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-medium"
               />
               <h4 className="text-xl font-semibold mb-2 text-foreground">Harish Annadevara</h4>
-              <p className="text-primary font-medium mb-2">CEO & Founder</p>
+              <p className="text-primary font-medium mb-2">Founder & Director</p>
               <p className="text-muted-foreground">
                 With extensive experience in technology leadership, Harish drives our vision of innovative solutions that transform businesses.
               </p>
@@ -81,7 +82,7 @@ const About = () => {
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-medium"
               />
               <h4 className="text-xl font-semibold mb-2 text-foreground">Koti Pemma</h4>
-              <p className="text-primary font-medium mb-2">CTO</p>
+                          <p className="text-primary font-medium mb-2">Technical Head</p>
               <p className="text-muted-foreground">
                 Koti leads our technical strategy with expertise in cloud architecture, AI, and enterprise software development.
               </p>
@@ -91,17 +92,18 @@ const About = () => {
           <Card className="card-hover border-0 shadow-soft">
             <CardContent className="p-8 text-center">
               <img
-                src={team1}
+                src={team3}
                 alt="Narasimha V - Lead Developer"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-medium"
               />
               <h4 className="text-xl font-semibold mb-2 text-foreground">Narasimha V</h4>
-              <p className="text-primary font-medium mb-2">Lead Developer</p>
+              <p className="text-primary font-medium mb-2">Technical Head</p>
               <p className="text-muted-foreground">
                 Narasimha brings deep technical expertise in software development and innovative solution architecture.
               </p>
             </CardContent>
-          </Card>
+                  </Card>
+
         </div>
       </div>
     </section>
