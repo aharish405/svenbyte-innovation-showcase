@@ -17,10 +17,16 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Simulate form submission
+    // Create WhatsApp message
+    const whatsappMessage = `Hi! I'm ${formData.name} (${formData.email}). Message: ${formData.message}`;
+    const whatsappUrl = `https://wa.me/919010779021?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+    
     toast({
-      title: "Message Sent Successfully!",
-      description: "We'll get back to you within 24 hours.",
+      title: "Redirecting to WhatsApp!",
+      description: "Your message will be sent via WhatsApp.",
     });
     
     // Reset form
@@ -121,7 +127,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-foreground mb-1">Email Us</h4>
-                  <p className="text-muted-foreground">hello@svenbyte.com</p>
+                  <p className="text-muted-foreground">harish.a@svenbyte.com</p>
                   <p className="text-muted-foreground">support@svenbyte.com</p>
                 </div>
               </CardContent>
@@ -134,8 +140,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-foreground mb-1">Call Us</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                  <p className="text-muted-foreground">Mon - Fri, 9AM - 6PM EST</p>
+                  <p className="text-muted-foreground">9010779021</p>
+                  <p className="text-muted-foreground">Mon - Fri, 9AM - 6PM IST</p>
                 </div>
               </CardContent>
             </Card>

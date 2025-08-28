@@ -25,11 +25,11 @@ const Portfolio = () => {
       github: "#"
     },
     {
-      title: "Mobile Banking Application",
-      category: "Mobile Development",
-      description: "Secure and intuitive mobile banking app with biometric authentication and real-time transaction processing.",
+      title: "GPS Tracking Solutions",
+      category: "IoT & Tracking",
+      description: "Advanced GPS tracking platform with real-time location monitoring, route optimization, and comprehensive fleet management.",
       image: project3,
-      technologies: ["React Native", "Firebase", "Node.js", "MongoDB"],
+      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "GPS API"],
       link: "#",
       github: "#"
     }

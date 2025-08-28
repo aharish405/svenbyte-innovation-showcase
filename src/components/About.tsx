@@ -57,18 +57,18 @@ const About = () => {
           <h3 className="text-3xl font-bold text-foreground mb-8">Meet Our Team</h3>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card className="card-hover border-0 shadow-soft">
             <CardContent className="p-8 text-center">
               <img
                 src={team1}
-                alt="Sarah Johnson - CEO & Founder"
+                alt="Harish Annadevara - CEO & Founder"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-medium"
               />
-              <h4 className="text-xl font-semibold mb-2 text-foreground">Sarah Johnson</h4>
+              <h4 className="text-xl font-semibold mb-2 text-foreground">Harish Annadevara</h4>
               <p className="text-primary font-medium mb-2">CEO & Founder</p>
               <p className="text-muted-foreground">
-                With over 15 years in technology leadership, Sarah drives our vision of innovative solutions that transform businesses.
+                With extensive experience in technology leadership, Harish drives our vision of innovative solutions that transform businesses.
               </p>
             </CardContent>
           </Card>
@@ -77,13 +77,28 @@ const About = () => {
             <CardContent className="p-8 text-center">
               <img
                 src={team2}
-                alt="Michael Chen - CTO"
+                alt="Koti Pemma - CTO"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-medium"
               />
-              <h4 className="text-xl font-semibold mb-2 text-foreground">Michael Chen</h4>
+              <h4 className="text-xl font-semibold mb-2 text-foreground">Koti Pemma</h4>
               <p className="text-primary font-medium mb-2">CTO</p>
               <p className="text-muted-foreground">
-                Michael leads our technical strategy with expertise in cloud architecture, AI, and enterprise software development.
+                Koti leads our technical strategy with expertise in cloud architecture, AI, and enterprise software development.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="card-hover border-0 shadow-soft">
+            <CardContent className="p-8 text-center">
+              <img
+                src={team1}
+                alt="Narasimha V - Lead Developer"
+                className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-medium"
+              />
+              <h4 className="text-xl font-semibold mb-2 text-foreground">Narasimha V</h4>
+              <p className="text-primary font-medium mb-2">Lead Developer</p>
+              <p className="text-muted-foreground">
+                Narasimha brings deep technical expertise in software development and innovative solution architecture.
               </p>
             </CardContent>
           </Card>
